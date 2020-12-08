@@ -221,7 +221,7 @@
     "@ledgerhq/hw-transport-webusb": "5.29.0",
     "@popperjs/core": "2.5.4",
     "@reduxjs/toolkit": "1.4.0",
-    "@stacks/blockchain-api-client": "0.28.0",
+    "@stacks/blockchain-api-client": "0.34.2",
     "@styled-system/theme-get": "5.1.2",
     "@tippyjs/react": "4.2.0",
     "@zondax/ledger-blockstack": "0.0.2",
