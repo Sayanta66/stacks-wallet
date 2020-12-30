@@ -13,7 +13,15 @@ if (!['mainnet', 'testnet'].includes(network))
   throw new Error(`Unknown STX_NETWORK type of: ${String(network)}`);
 
 const baseConfig = {
-  files: ['dist/', 'node_modules/', 'app.html', 'main.prod.js', 'main.prod.js.map', 'package.json'],
+  files: [
+    'dist/',
+    'node_modules/',
+    'app.html',
+    'main.prod.js',
+    'main.prod.js.map',
+    'preload.js',
+    'package.json',
+  ],
   dmg: {
     contents: [
       {
